@@ -1,0 +1,10 @@
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\bin\Debug\QuanliCCBB.exe.config
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\bin\Debug\QuanliCCBB.exe
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\bin\Debug\QuanliCCBB.pdb
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.csprojAssemblyReference.cache
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.Form1.resources
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.Properties.Resources.resources
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.GenerateResource.cache
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.CoreCompileInputs.cache
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.exe
+D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.pdb
