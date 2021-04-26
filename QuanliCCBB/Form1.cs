@@ -33,7 +33,7 @@ namespace QuanliCCBB
             if (x == 1)
             {
                 MessageBox.Show("Đăng Nhập Thành Công");
-                chucnang cn = new chucnang();
+                ChucNang cn = new ChucNang();
                 cn.Show();
             }
             else

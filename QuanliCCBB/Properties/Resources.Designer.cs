@@ -73,6 +73,16 @@ namespace QuanliCCBB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap twotone_disabled_by_default_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("twotone_disabled_by_default_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap twotone_login_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_login_black_18dp", resourceCulture);

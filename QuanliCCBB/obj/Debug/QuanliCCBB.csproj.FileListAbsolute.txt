@@ -8,3 +8,14 @@ D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.GenerateR
 D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.CoreCompileInputs.cache
 D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.exe
 D:\Lập trình .Net\QuanliCCBB\QuanliCCBB\obj\Debug\QuanliCCBB.pdb
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\bin\Debug\QuanliCCBB.exe.config
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\bin\Debug\QuanliCCBB.exe
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\bin\Debug\QuanliCCBB.pdb
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.csprojAssemblyReference.cache
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.ChucNang.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Form1.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Properties.Resources.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.GenerateResource.cache
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.CoreCompileInputs.cache
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.exe
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.pdb

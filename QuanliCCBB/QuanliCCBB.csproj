@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucNang.Designer.cs">
+      <DependentUpon>ChucNang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChucNang.resx">
+      <DependentUpon>ChucNang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\123691965_1102022610212084_7778160315835960785_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twotone_disabled_by_default_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
