@@ -19,3 +19,4 @@ D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.GenerateRes
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.csproj.CoreCompileInputs.cache
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.exe
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.pdb
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Ttphong.resources

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button12 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -44,24 +43,13 @@
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button12
-            // 
-            this.button12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Image = global::QuanliCCBB.Properties.Resources.twotone_disabled_by_default_black_18dp;
-            this.button12.Location = new System.Drawing.Point(666, 464);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(106, 42);
-            this.button12.TabIndex = 17;
-            this.button12.Text = "Thoát";
-            this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
@@ -228,6 +216,19 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Trạng Thái Phòng";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Image = global::QuanliCCBB.Properties.Resources.twotone_disabled_by_default_black_18dp;
+            this.button12.Location = new System.Drawing.Point(666, 464);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(106, 42);
+            this.button12.TabIndex = 17;
+            this.button12.Text = "Thoát";
+            this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button12.UseVisualStyleBackColor = true;
             // 
             // ChucNang
             // 

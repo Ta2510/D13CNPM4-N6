@@ -16,5 +16,11 @@ namespace QuanliCCBB
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ttphong p = new Ttphong();
+            p.Show();
+        }
     }
 }
