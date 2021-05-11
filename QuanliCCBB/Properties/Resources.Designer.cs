@@ -123,6 +123,16 @@ namespace QuanliCCBB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap twotone_find_in_page_black_18dp2 {
+            get {
+                object obj = ResourceManager.GetObject("twotone_find_in_page_black_18dp2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap twotone_highlight_off_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_highlight_off_black_18dp", resourceCulture);
@@ -136,6 +146,16 @@ namespace QuanliCCBB.Properties {
         internal static System.Drawing.Bitmap twotone_login_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_login_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap twotone_monetization_on_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("twotone_monetization_on_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

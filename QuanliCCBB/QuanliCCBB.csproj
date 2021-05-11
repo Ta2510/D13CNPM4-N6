@@ -60,6 +60,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qldien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qldien.Designer.cs">
+      <DependentUpon>qldien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qlnuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qlnuoc.Designer.cs">
+      <DependentUpon>qlnuoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ttphong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="qldien.resx">
+      <DependentUpon>qldien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qlnuoc.resx">
+      <DependentUpon>qlnuoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ttphong.resx">
       <DependentUpon>Ttphong.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +148,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\twotone_highlight_off_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twotone_monetization_on_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twotone_find_in_page_black_18dp2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

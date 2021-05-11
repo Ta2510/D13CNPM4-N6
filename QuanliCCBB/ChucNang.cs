@@ -22,5 +22,17 @@ namespace QuanliCCBB
             Ttphong p = new Ttphong();
             p.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            qldien qldien = new qldien();
+            qldien.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            qlnuoc nuoc = new qlnuoc();
+            nuoc.Show();
+        }
     }
 }
