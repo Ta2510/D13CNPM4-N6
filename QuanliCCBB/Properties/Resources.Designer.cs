@@ -73,6 +73,26 @@ namespace QuanliCCBB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _60_Những_hình_nền_đẹp_cho_điện_thoại_dễ_thương_full_HD {
+            get {
+                object obj = ResourceManager.GetObject("60-Những-hình-nền-đẹp-cho-điện-thoại-dễ-thương-full-HD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_autorenew_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_autorenew_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap twotone_build_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_build_black_18dp", resourceCulture);
