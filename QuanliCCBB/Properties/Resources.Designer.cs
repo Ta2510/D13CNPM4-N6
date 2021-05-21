@@ -93,6 +93,16 @@ namespace QuanliCCBB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap luong {
+            get {
+                object obj = ResourceManager.GetObject("luong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap twotone_build_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_build_black_18dp", resourceCulture);
@@ -156,6 +166,16 @@ namespace QuanliCCBB.Properties {
         internal static System.Drawing.Bitmap twotone_highlight_off_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("twotone_highlight_off_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap twotone_keyboard_arrow_down_black_18dp {
+            get {
+                object obj = ResourceManager.GetObject("twotone_keyboard_arrow_down_black_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -22,3 +22,8 @@ D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.pdb
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Ttphong.resources
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.qldien.resources
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.qlnuoc.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\quanlychungcu.HDmp.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.guixe.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.thietbi.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Luongns.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Nhansu.resources

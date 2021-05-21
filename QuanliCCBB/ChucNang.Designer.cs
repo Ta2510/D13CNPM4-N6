@@ -84,6 +84,7 @@
             this.button10.TabIndex = 5;
             this.button10.Text = "Gửi Xe Tháng";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -94,6 +95,7 @@
             this.button9.TabIndex = 4;
             this.button9.Text = "Trang Thiết Bị";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // groupBox4
             // 
@@ -127,6 +129,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Hợp Đồng Mua Phòng";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox3
             // 
@@ -150,6 +153,7 @@
             this.button8.TabIndex = 10;
             this.button8.Text = "Lương Nhân Sự";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -160,6 +164,7 @@
             this.button7.TabIndex = 9;
             this.button7.Text = "Hệ Thống Nhân Sự";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // groupBox2
             // 

@@ -58,11 +58,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="guixe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guixe.Designer.cs">
+      <DependentUpon>guixe.cs</DependentUpon>
+    </Compile>
     <Compile Include="HDmp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HDmp.Designer.cs">
       <DependentUpon>HDmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Luongns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Luongns.Designer.cs">
+      <DependentUpon>Luongns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhansu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhansu.Designer.cs">
+      <DependentUpon>Nhansu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +96,12 @@
     <Compile Include="qlnuoc.Designer.cs">
       <DependentUpon>qlnuoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="thietbi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thietbi.Designer.cs">
+      <DependentUpon>thietbi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ttphong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,8 +114,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="guixe.resx">
+      <DependentUpon>guixe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HDmp.resx">
       <DependentUpon>HDmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Luongns.resx">
+      <DependentUpon>Luongns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhansu.resx">
+      <DependentUpon>Nhansu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="qlnuoc.resx">
       <DependentUpon>qlnuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thietbi.resx">
+      <DependentUpon>thietbi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ttphong.resx">
       <DependentUpon>Ttphong.cs</DependentUpon>
@@ -169,6 +205,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseline_autorenew_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twotone_keyboard_arrow_down_black_18dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
