@@ -27,3 +27,4 @@ D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.guixe.resources
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.thietbi.resources
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Luongns.resources
 D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Nhansu.resources
+D:\QuanLyDuAncntt\D13CNPM4-N6\QuanliCCBB\obj\Debug\QuanliCCBB.Vesinh.resources

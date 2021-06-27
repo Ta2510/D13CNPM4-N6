@@ -30,7 +30,9 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_dongia = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.cbb_thang = new System.Windows.Forms.ComboBox();
             this.cbb_phong = new System.Windows.Forms.ComboBox();
             this.txt_tiendien = new System.Windows.Forms.TextBox();
@@ -45,8 +47,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -81,6 +81,18 @@
             this.txt_dongia.Size = new System.Drawing.Size(168, 20);
             this.txt_dongia.TabIndex = 11;
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = global::QuanliCCBB.Properties.Resources.twotone_find_in_page_black_18dp2;
+            this.button5.Location = new System.Drawing.Point(513, 142);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(105, 35);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Tìm Kiếm";
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -90,6 +102,18 @@
             this.label6.Size = new System.Drawing.Size(71, 19);
             this.label6.TabIndex = 10;
             this.label6.Text = "Đơn Giá:";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::QuanliCCBB.Properties.Resources.twotone_monetization_on_black_18dp;
+            this.button2.Location = new System.Drawing.Point(394, 142);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(101, 35);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Tính Tiền";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // cbb_thang
             // 
@@ -211,6 +235,7 @@
             this.button6.Text = "Thoát";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // button4
             // 
@@ -235,30 +260,6 @@
             this.button3.Text = "Sửa";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = global::QuanliCCBB.Properties.Resources.twotone_find_in_page_black_18dp2;
-            this.button5.Location = new System.Drawing.Point(513, 142);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(105, 35);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Tìm Kiếm";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::QuanliCCBB.Properties.Resources.twotone_monetization_on_black_18dp;
-            this.button2.Location = new System.Drawing.Point(394, 142);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 35);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Tính Tiền";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 

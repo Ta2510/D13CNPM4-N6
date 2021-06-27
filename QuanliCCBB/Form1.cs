@@ -40,6 +40,8 @@ namespace QuanliCCBB
             {
                 MessageBox.Show("Đăng Nhập Không Thành Công" +
                     "Mời Nhập Lại");
+                Form1 f1 = new Form1();
+                f1.Show();
             }
             this.Hide();
         }

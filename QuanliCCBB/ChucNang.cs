@@ -66,5 +66,11 @@ namespace QuanliCCBB
             Luongns luong = new Luongns();
             luong.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Vesinh vs = new Vesinh();
+            vs.Show();
+        }
     }
 }

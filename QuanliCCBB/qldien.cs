@@ -121,5 +121,10 @@ namespace QuanliCCBB
             cn.Show();
             this.Hide();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,7 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn_thoat = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_sua = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.txt_gia = new System.Windows.Forms.TextBox();
             this.txt_nn = new System.Windows.Forms.TextBox();
             this.txt_tb = new System.Windows.Forms.TextBox();
@@ -39,11 +44,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btn_thoat = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btn_sua = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -61,6 +61,56 @@
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
+            // btn_thoat
+            // 
+            this.btn_thoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_thoat.Image = global::QuanliCCBB.Properties.Resources.twotone_highlight_off_black_18dp;
+            this.btn_thoat.Location = new System.Drawing.Point(67, 162);
+            this.btn_thoat.Name = "btn_thoat";
+            this.btn_thoat.Size = new System.Drawing.Size(80, 36);
+            this.btn_thoat.TabIndex = 16;
+            this.btn_thoat.Text = "Thoát";
+            this.btn_thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_thoat.UseVisualStyleBackColor = true;
+            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::QuanliCCBB.Properties.Resources.twotone_delete_outline_black_18dp;
+            this.button2.Location = new System.Drawing.Point(67, 113);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(78, 36);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Xóa";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sua.Image = global::QuanliCCBB.Properties.Resources.twotone_build_black_18dp;
+            this.btn_sua.Location = new System.Drawing.Point(67, 65);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(78, 37);
+            this.btn_sua.TabIndex = 14;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_sua.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::QuanliCCBB.Properties.Resources.twotone_note_add_black_18dp;
+            this.button1.Location = new System.Drawing.Point(67, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(78, 37);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Thêm";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button5);
@@ -77,6 +127,18 @@
             this.groupBox1.Size = new System.Drawing.Size(605, 218);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = global::QuanliCCBB.Properties.Resources.twotone_find_in_page_black_18dp1;
+            this.button5.Location = new System.Drawing.Point(477, 21);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(105, 35);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Tìm Kiếm";
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // txt_gia
             // 
@@ -153,67 +215,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(861, 229);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // btn_thoat
-            // 
-            this.btn_thoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_thoat.Image = global::QuanliCCBB.Properties.Resources.twotone_highlight_off_black_18dp;
-            this.btn_thoat.Location = new System.Drawing.Point(67, 162);
-            this.btn_thoat.Name = "btn_thoat";
-            this.btn_thoat.Size = new System.Drawing.Size(80, 36);
-            this.btn_thoat.TabIndex = 16;
-            this.btn_thoat.Text = "Thoát";
-            this.btn_thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_thoat.UseVisualStyleBackColor = true;
-            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click_1);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::QuanliCCBB.Properties.Resources.twotone_delete_outline_black_18dp;
-            this.button2.Location = new System.Drawing.Point(67, 113);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 36);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Xóa";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // btn_sua
-            // 
-            this.btn_sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sua.Image = global::QuanliCCBB.Properties.Resources.twotone_build_black_18dp;
-            this.btn_sua.Location = new System.Drawing.Point(67, 65);
-            this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(78, 37);
-            this.btn_sua.TabIndex = 14;
-            this.btn_sua.Text = "Sửa";
-            this.btn_sua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_sua.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::QuanliCCBB.Properties.Resources.twotone_note_add_black_18dp;
-            this.button1.Location = new System.Drawing.Point(67, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 37);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Thêm";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = global::QuanliCCBB.Properties.Resources.twotone_find_in_page_black_18dp1;
-            this.button5.Location = new System.Drawing.Point(477, 21);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(105, 35);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Tìm Kiếm";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // thietbi
             // 

@@ -74,6 +74,7 @@
             this.button11.TabIndex = 6;
             this.button11.Text = "Vệ Sinh";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 

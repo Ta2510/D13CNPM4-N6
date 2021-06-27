@@ -108,6 +108,12 @@
     <Compile Include="Ttphong.Designer.cs">
       <DependentUpon>Ttphong.cs</DependentUpon>
     </Compile>
+    <Compile Include="vesinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vesinh.Designer.cs">
+      <DependentUpon>vesinh.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChucNang.resx">
       <DependentUpon>ChucNang.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ttphong.resx">
       <DependentUpon>Ttphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vesinh.resx">
+      <DependentUpon>vesinh.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

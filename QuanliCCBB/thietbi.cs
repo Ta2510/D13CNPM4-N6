@@ -96,7 +96,13 @@ namespace QuanliCCBB
         private void btn_thoat_Click_1(object sender, EventArgs e)
         {
             ChucNang cn = new ChucNang();
-            cn.Show();    
+            cn.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -114,5 +114,10 @@ namespace QuanliCCBB
             txt_sdt.ResetText();
             txt_ten.ResetText();
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
