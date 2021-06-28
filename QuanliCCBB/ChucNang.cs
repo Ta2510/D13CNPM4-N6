@@ -72,5 +72,11 @@ namespace QuanliCCBB
             Vesinh vs = new Vesinh();
             vs.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Nguoimua nm = new Nguoimua();
+            nm.Show();
+        }
     }
 }

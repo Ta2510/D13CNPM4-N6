@@ -161,5 +161,24 @@ namespace QuanliCCBB
         {
 
         }
+
+        private void groupBox2_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Luongns_Load_1(object sender, EventArgs e)
+        {
+            conn = new SqlConnection(str);
+            conn.Open();
+            getmans();
+            getcv();
+            loaddata();
+        }
     }
 }
